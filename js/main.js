@@ -45,6 +45,13 @@ function changeLanguage() {
       footerText.textContent =
         "© 2024 Lucas Câmara de Souza - Tous droits réservés.";
       break;
+    case "ja":
+      welcomeText.textContent =
+        "ポートフォリオへようこそ！テスト自動化分野における私のプロジェクト、スキル、経験をご覧ください。";
+      linkedinText.innerHTML =
+        '詳細については、私の<a href="https://www.linkedin.com/in/camaralucas/" target="_blank" rel="noopener noreferrer">LinkedIn</a>プロフィールをご覧ください！';
+      footerText.textContent = "© 2024 Lucas Câmara de Souza - 全著作権所有。";
+      break;
     case "zh":
       welcomeText.textContent =
         "欢迎来到我的作品集！探索我在测试自动化领域的项目、技能和经验。";
