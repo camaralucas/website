@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #34495e; /* Dark navy blue */
-  --secondary-color: #ecf0f1; /* Light grey background */
-  --accent-color: #3498db; /* Softer blue for CTAs */
-  --background-color: #f9f9f9; /* Light body background */
-  --font-color: #2c3e50; /* Darker text for readability */
+  --primary-color: #22272e; /* Dark background color */
+  --secondary-color: #1b1f26; /* Slightly lighter dark for contrast */
+  --accent-color: #3498db; /* Bright blue for accents */
+  --background-color: #101317; /* Very dark for the general background */
+  --font-color: #f9f9f9; /* Light color for text */
   --font-family: "Poppins", sans-serif;
   --max-width: 1200px; /* Max content width */
 }
@@ -20,18 +20,18 @@ body {
   background-color: var(--background-color);
   display: flex;
   flex-direction: column;
-  align-items: center; /* Alinha horizontalmente no centro */
-  justify-content: flex-start; /* Alinha os itens no topo */
+  align-items: center;
+  justify-content: flex-start;
   min-height: 100vh;
-  padding: 20px; /* Adiciona padding ao redor do corpo */
+  padding: 20px;
 }
 
 header {
   background-color: var(--primary-color);
-  color: var(--secondary-color);
-  text-align: center; /* Centraliza o texto do cabeçalho */
-  padding: 20px 0; /* Adiciona padding vertical */
-  width: 100%; /* Largura total */
+  color: var(--font-color);
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
 }
 
 header h1 {
@@ -46,17 +46,17 @@ header h2 {
 
 .language-selector {
   position: absolute;
-  top: 20px; /* Melhor posicionamento */
+  top: 20px;
   right: 30px;
 }
 
 select {
   background-color: var(--primary-color);
-  color: var(--secondary-color);
+  color: var(--font-color);
   border: 2px solid var(--accent-color);
-  padding: 8px; /* Adiciona padding para melhor área de toque */
-  border-radius: 5px; /* Cantos arredondados */
-  cursor: pointer; /* Indica que é clicável */
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 select:hover {
@@ -66,7 +66,7 @@ select:hover {
 
 main {
   max-width: var(--max-width);
-  margin: 40px auto; /* Margem automática para centralizar horizontalmente */
+  margin: 40px auto;
   padding: 40px;
   background-color: var(--secondary-color);
   border-radius: 10px;
@@ -85,16 +85,16 @@ a {
 }
 
 a:hover {
-  color: #2980b9; /* Azul mais escuro para hover */
+  color: #2980b9;
 }
 
 footer {
   background-color: var(--accent-color);
   color: var(--secondary-color);
   border-top: 2px solid var(--primary-color);
-  text-align: center; /* Centraliza o texto do rodapé */
-  padding: 20px 0; /* Adiciona padding vertical */
-  width: 100%; /* Largura total */
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
 }
 
 footer p {
@@ -112,7 +112,7 @@ footer p {
   }
 
   .language-selector {
-    position: static; /* Posicionamento estático para telas menores */
+    position: static;
     margin-top: 10px;
     display: flex;
     justify-content: center;
